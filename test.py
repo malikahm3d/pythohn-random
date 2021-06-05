@@ -39,3 +39,10 @@ for row in num_grid:
     #print(row)
     for col in row:
         print(col)
+
+try:
+    #value = 10 / 0
+    a = int(input("enter a NUMBER: "))
+    print(a)
+except Exception as e:
+    print('Error: ', e)
