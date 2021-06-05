@@ -13,3 +13,16 @@ elif not(isMale) and isTall:
     print("tall female")
 else:
     print("short female")
+
+def max_num(num1, num2, num3):
+    if num1 >= num2 and num1 >= num3:
+        return "num 1 is largest " + str(num1)
+        #or
+        #return "num 1 is largest " , num1
+        #the diffrenaces between comma and plus have led me down a dark patch of python history
+    elif num2 >= num1 and num2 >= num3:
+        return num2
+    else:
+        return num3
+
+print(max_num(4,3,3))
