@@ -50,5 +50,5 @@ for row in num_grid:
 students_file = open('students.txt', 'a')
 # for student in students_file.readlines():
 #     print(student)
-students_file.write('Yezen - cs')
+students_file.write('\nYezen - cs')
 students_file.close()
