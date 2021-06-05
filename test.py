@@ -26,3 +26,16 @@ def max_num(num1, num2, num3):
         return num3
 
 print(max_num(4,3,3))
+
+#dictionaries
+num_grid = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+    [0]
+]
+print(num_grid[0][2])
+for row in num_grid:
+    #print(row)
+    for col in row:
+        print(col)
