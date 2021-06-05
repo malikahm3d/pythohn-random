@@ -40,9 +40,15 @@ for row in num_grid:
     for col in row:
         print(col)
 
-try:
-    #value = 10 / 0
-    a = int(input("enter a NUMBER: "))
-    print(a)
-except Exception as e:
-    print('Error: ', e)
+# try:
+#     #value = 10 / 0
+#     a = int(input("enter a NUMBER: "))
+#     print(a)
+# except Exception as e:
+#     print('Error: ', e)
+
+students_file = open('students.txt', 'a')
+# for student in students_file.readlines():
+#     print(student)
+students_file.write('Yezen - cs')
+students_file.close()
