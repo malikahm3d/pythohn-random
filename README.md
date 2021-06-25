@@ -1,1 +1,1 @@
-# pythohn-random
+# python-random
